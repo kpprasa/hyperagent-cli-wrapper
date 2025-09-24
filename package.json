@@ -1,0 +1,19 @@
+{
+  "name": "hyperagent-cli-wrapper",
+  "version": "1.0.0",
+  "description": "A CLI wrapper around HyperAgent for web automation tasks",
+  "main": "run-agent.ts",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "volta": {
+    "node": "22.19.0"
+  },
+  "dependencies": {
+    "@hyperbrowser/agent": "https://github.com/kpprasa/HyperAgent-BrowserProfile.git",
+    "@langchain/core": "^0.3.43",
+    "@langchain/openai": "^0.3.17",
+    "langchain": "^0.3.19"
+  }
+}
